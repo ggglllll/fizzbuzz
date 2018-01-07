@@ -1,4 +1,4 @@
-class Fizzbuzz
+﻿class Fizzbuzz
   def calculate number
     if number.to_s.include? '7'
       'GitHub'
@@ -8,6 +8,8 @@ class Fizzbuzz
       'fizz'
     elsif number % 5 == 0
       'buzz'
+    elsif number.to_include? '7'
+      'Github'
     else
       number
     end
