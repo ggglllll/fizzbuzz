@@ -8,8 +8,8 @@
       'fizz'
     elsif number % 5 == 0
       'buzz'
-	elsif number.to_include? '7'
-	'Github'
+    elsif number.to_include? '7'
+      'Github'
     else
       number
     end
